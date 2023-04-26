@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Grooming salon | Home</title>
+		<link><![CDATA[https://guileless-clafoutis-f207c3.netlify.app]]></link>
+		<description>this is our first page in which we are welcoming you on our site.</description>
+		<language>en</language>
+		<pubDate>Wed, 26 Apr 2023 14:16:34 +0000</pubDate>
+		<generator>MySitemapGenerator (www.mysitemapgenerator.com)</generator>
+
+		<item>
+			<guid isPermaLink="false">857878741</guid>
+			<title>Grooming salon | Home</title>
+			<link>https://guileless-clafoutis-f207c3.netlify.app/galerija.html</link>
+			<dc:creator>Administrator</dc:creator>
+			<category>Site News</category>
+			<description>this is our first page in which we are welcoming you on our site.</description>
+			<pubDate>Wed, 26 Apr 2023 17:16:33 +0300</pubDate>
+			<enclosure url="https://guileless-clafoutis-f207c3.netlify.app/slike/logo/doglogo.png" type="image/png" length="0" />
+		</item>
+		<item>
+			<guid isPermaLink="false">2478718673</guid>
+			<title>Grooming salon | Home</title>
+			<link>https://guileless-clafoutis-f207c3.netlify.app/kontakt.html</link>
+			<dc:creator>Administrator</dc:creator>
+			<category>Site News</category>
+			<description>this is our first page in which we are welcoming you on our site.</description>
+			<pubDate>Wed, 26 Apr 2023 17:16:32 +0300</pubDate>
+		</item>
+	</channel>
+</rss>

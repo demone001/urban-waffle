@@ -230,9 +230,12 @@ footer h4{
     color: brown;
 }
 #main-contact{
-    background-image: url("../slike/orange.jpg");
+    background-image: url("../slike/wood2.jpg");
     background-position: center;
     height: 500px;
+}
+#main-contact h1{
+    color:#000;
 }
 #main-contact form{
     position:absolute;
