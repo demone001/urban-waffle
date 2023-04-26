@@ -292,3 +292,19 @@ button:hover{
     font-size: 19px;
 
 }
+.bg-slike{
+    display: flex;
+    justify-content: space-around;
+}
+.bg-slike img{
+    box-shadow: 0px 0px 10px #9a9a9a;
+    width: 360px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.bg-slike img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
