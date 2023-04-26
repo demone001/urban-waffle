@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Petemoss', cursive;
+    font-family: 'Work Sans', sans-serif;    
+}
+body {
+    background-image: url("../slike/makaze2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.cleaner{
+    clear:both;
+}
+#header{
+    background-image: url("../slike/pozadina4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px;
+    
+}
+#logo img{
+    height: 120px;
+    margin-left: 80px;
+    object-fit: contain;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    color:orange;
+}
+li, ul{
+    list-style-type: none;
+    transition: 1s;
+    list-style-type: disc;
+}
+.navigation{
+    margin-inline-start: auto;
+    margin-right: 120px;
+    margin-top: 10px;
+}
+.navigation li{
+   float: right;
+   padding: 40px;
+}
+h1{
+    text-align: center;
+    font-family: serif;
+    color: #987554;
+}
+p{
+    text-align: center;
+    color: darkred;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: unset;
+    color: orange;
+}
+h4{
+    text-align: center;
+}
+img{
+    width: 40%;
+    height: 450px;
+    border-radius: 6%;
+    margin-left: 30px;
+}
+#onama{
+    margin-top: 15px;
+}
+.okvir{
+    display: flex;
+}
+.okvir img{
+    width: 100%;
+}
+.text{
+    width: 400px;
+    background-color: bisque;
+    height: 250px;
+    border-radius: 20px;
+}
+.okvir h3{
+    margin: 10px;
+}
+.okvir .btn-primary{
+    margin-left: 180px;
+}
+@keyframes slide {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }  	
+
+ .text{
+    animation-name: slide;
+    animation-duration: 2s;
+ }
+#novo{
+    border-bottom: 1px solid;
+}
+.parfem{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+.parfem img{
+    width: 90%;
+}
+.parfem h3{
+    margin: 10px;
+}
+.parfem .btn-primary{
+    margin-left: 20px;
+}
+.parfem .text{
+    margin-right: -30px;
+}
+#tips{
+    background-color: #987554;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#tips p{
+    color: blanchedalmond;
+    font-family: revert;
+    padding-bottom: 10px;
+}
+.footer{
+    background-color: burlywood;
+    height: 110px;
+    width: 100%;
+    border: 3px solid;
+    margin:20px auto;
+    padding: 20px;
+}
+#social{
+    width: 40%;
+    float: left;
+    margin-left: 80px;
+}
+#social ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 50px;
+}
+#rights {
+    width: 40%;
+    margin-left: 150px;
+}
+#contact-info{
+    width: 40%;
+    float: right;
+    margin-right: 20px;
+    display: inherit;
+    font-style: oblique;
+}
+footer p{
+    margin: 10px;
+}
+footer h4{
+    text-decoration: underline;
+    justify-content: space-around;
+}
+.btn-primary{
+	text-decoration:none;
+	border:2px solid darkgray;
+	background-color: #765341;
+	color:antiquewhite;
+	padding:5px;
+	border-radius:12px;
+    transition:0.5s;
+} 
+.btn-primary:hover{
+    transform: scale(1.05);
+    color:var(--background);
+    background-color: white;
+}
+.region{
+    border-bottom: 1px solid;
+    margin-top: 20px;
+}
+#prvetri{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+#drugetri{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.galerijaslika{
+    border-bottom: 1px solid;
+    background-image: url("../slike/bubbles.jpg");
+}
+.galerijaslika img{
+    width: 290px;
+    transform: scale(0.9);
+	transition: .3s ease-in-out;
+}
+.galerijaslika img:hover{
+    transform: scale(1);
+}
+.galerijaslika figcaption{
+    margin-left: 100px ;
+    margin-top: 13px;
+    text-decoration: overline;
+    color: brown;
+}
+#main-contact{
+    background-image: url("../slike/orange.jpg");
+    background-position: center;
+    height: 500px;
+}
+#main-contact form{
+    position:absolute;
+	height:240px;
+	margin:2% 40%;
+	box-sizing:border-box;
+    padding: 20px;
+	border-radius:12px;	
+	background-color: #fcf9ec96;
+}
+#main-contact div input{
+    border:none;
+	height:30px;
+	width:100%;
+	margin:5px 0px 5px 0px;
+	color:#000;
+	border-radius:10px;
+	padding-left:5px;
+}
+button{
+    border:2px solid darkgray;
+	background-color: #765341;
+    margin-left: 130px;
+	color:antiquewhite;
+	padding:5px;
+	border-radius:12px;
+    transition:0.5s;
+}
+button:hover{
+    transform: scale(1.05);
+    color:var(--background);
+    background-color: white;
+}
+.hours{
+    background-color: bisque;
+    margin-top: 19px;
+    width: 300px;
+    margin-left: 800px;
+    border-radius: 7%;
+}
+#slika1 img{
+    width: 330px;
+}
+.Autor{
+    display: flex;
+    justify-content: space-evenly;
+}
+#my-story{
+    width: 40%;
+    margin-top: 70px;
+    background-color: bisque;
+    height: 230px;
+    border-radius: 5%;
+    font-size: 19px;
+
+}
